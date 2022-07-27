@@ -28,11 +28,11 @@ content-type: application/json
 }
 
 ###
-GET http://localhost:8080/board-game/254965a2 HTTP/1.1
+GET http://localhost:8080/board-game/f4f120f3 HTTP/1.1
 content-type: application/json
 
 ###
-PUT http://localhost:8080/board-game/254965a2 HTTP/1.1
+PUT http://localhost:8080/board-game/f4f120f3 HTTP/1.1
 content-type: application/json
 
 {
@@ -44,11 +44,11 @@ content-type: application/json
       "types": [
         {
           "type": "code",
-          "count": 75
+          "count": 72
         },
         {
           "type": "key",
-          "count": 32
+          "count": 65
         }
       ]
     },
@@ -57,10 +57,10 @@ content-type: application/json
       "file": "rulebook-ultimate-mastermind.pdf"
     }
   },
-  "id": "254965a2",
+  "id": "f4f120f3",
   "insertCount": 0,
   "updateCount": 0,
-  "upsert": true
+  "upsert": false
 }
 
 ###
